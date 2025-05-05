@@ -25,7 +25,7 @@ export class GPT {
 
         try {
             const requestBody = {
-                model: this.model_name || "gpt-4o-mini",
+                model: this.model_name || "llm-mini",
                 messages: messages,
                 stop: stop_seq,
             };

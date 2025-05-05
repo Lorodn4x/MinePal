@@ -2,12 +2,12 @@ import { OpenAIModel } from "../types/apiTypes";
 
 const openAIModels: { value: OpenAIModel, label: string }[] = [
   {
-    value: "gpt-4o-mini",
-    label: "gpt-4o-mini"
+    value: "llm-mini",
+    label: "llm-mini"
   },
   {
-    value: "gpt-4o",
-    label: "gpt-4o"
+    value: "llm",
+    label: "llm"
   }
 ];
 

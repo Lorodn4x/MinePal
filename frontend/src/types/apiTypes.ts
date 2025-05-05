@@ -7,7 +7,7 @@ export interface Profile {
   auth?: "offline" | "mojang" | "microsoft";
 }
 
-export type OpenAIModel = "gpt-4o-mini" | "gpt-4o";
+export type OpenAIModel = "llm-mini" | "llm";
 
 export type UserSettings = {
   host: string;

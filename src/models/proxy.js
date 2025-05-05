@@ -164,7 +164,7 @@ export class Proxy {
                 // Add model name required by OpenAI API
                 const requestBody = {
                     ...baseRequestBody,
-                    model: "gpt-4o-mini" // Hardcoding model for now, could be made configurable
+                    model: "llm-mini" // Hardcoding model for now, could be made configurable
                 };
                 
                 response = await axios.post('https://api.openai.com/v1/chat/completions', requestBody, { headers });
